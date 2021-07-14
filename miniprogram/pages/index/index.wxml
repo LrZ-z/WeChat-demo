@@ -1,0 +1,13 @@
+<image src='../../images/2.jpg' class='tu'></image>
+<view wx:for="{{list}}" class='all'  bindtap='btn' wx:key="index" wx:for-item="item" data-index='{{index}}'>
+  <view>
+    <image src=''></image>
+  </view>
+  <view>
+    <text>工号：{{item.gh}}</text>
+    <text>姓名：{{item.jsxm}}</text>
+    <text>性别：{{item.xb}}</text>
+    <text>院系：{{item.yx}}</text>
+    <text>职位：{{item.zc}}</text>
+  </view>
+</view>

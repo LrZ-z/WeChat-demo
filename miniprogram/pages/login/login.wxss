@@ -1,0 +1,54 @@
+/* pages/login/login.wxss */
+.all{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -99999;
+}
+.tu{
+  width: 100%;
+  height: 100%;
+}
+form{
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 150px;
+}
+.text{
+  width: 100%;
+  padding: 40rpx 0;
+  text-align: center;
+   position: absolute;
+  top: 80px;
+  font-size: 22px;
+}
+.input {
+  width: 60%;
+  border: 1px solid black;
+  padding: 15rpx;
+  border-radius: 45rpx;
+  margin: 50rpx auto;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.img{
+  width: 55rpx;
+  height: 55rpx;
+}
+
+input {
+ margin-left: 10rpx;
+}
+
+button{
+  width: 40%;
+  display: inline-block;
+  margin: 5%;
+  background-color: transparent
+}

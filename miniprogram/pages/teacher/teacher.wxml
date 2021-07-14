@@ -1,0 +1,19 @@
+<!--pages/teacher/teacher.wxml-->
+<image src='../../images/1.jpg' class='tu'></image>
+<view class='top'>
+  <text>工号：{{gh}}</text>
+  <text>姓名：{{jsxm}}</text>
+</view>
+
+<view wx:for="{{listes}}" >
+  <view class='lists'>{{item.id}}.{{item.timu}}</view>
+  <view class='two'>
+    <view class='txt'>{{item.type}}</view>
+    <input  bindinput='input' data-index='{{index}}' value='{{txt}}'type="number"></input>
+  </view>
+</view>
+
+<view>
+  <button bindtap='btn1'>重置</button>
+  <button bindtap='btn2'>提交</button>
+</view>

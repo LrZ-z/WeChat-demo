@@ -1,0 +1,47 @@
+/* pages/teacher/teacher.wxss */
+.tu{
+  width: 100%;
+  height: 250%;
+  position: absolute;
+  z-index: -99999
+}
+.top{
+  width: 100%;
+  padding: 20rpx 0;
+  background-color: rgb(153, 150, 149);
+  border-radius: 50rpx;
+}
+text{
+  display: inline-block;
+  width: 45%;
+  padding: 20rpx;
+  color: red
+}
+.lists{
+  width: 100%;
+  margin: 60rpx 0
+}
+.two{
+  display: flex;
+  flex-direction: row;
+  margin: 40rpx 0;
+  text-align: center
+}
+.txt{
+  margin-left: 30rpx;
+}
+input{
+  border-bottom:1px solid black;
+  width: 400rpx ;
+  margin-left: 50rpx;
+  color: red;
+  padding: 5rpx
+}
+button{
+  display: inline-block;
+  width: 40%;
+  height: 100rpx;
+  margin: 5%;
+  background-color: rgb(167, 196, 221)
+
+}

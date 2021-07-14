@@ -1,0 +1,32 @@
+<!--pages/login/login.wxml-->
+<view class='all'>
+  <image src='../../images/3.jpg' class='tu'></image>
+
+ <view class='text'>评教系统</view>
+  
+    <form bindsubmit="formSubmit" bindreset="formReset">
+      <view class='input'>
+        <view class='logo'>
+          <image src="../../images/name.png" class='img'></image>
+          <input placeholder='请输入账号' bindinput='input1' value='{{name}}' type='number'></input>
+        </view>
+      </view>
+
+      <view class='input'>
+        <view class='logo'>
+          <image src="../../images/key.png" class='img'></image>
+          <input password placeholder='请输入密码' bindinput='input2' value='{{password}}' type='number'></input>
+        </view>
+      </view>
+
+      <view class="feet">
+        <button form-type="submit">登录</button>
+        <button form-type="reset">重置</button>
+      </view>
+
+    </form>
+
+
+
+
+</view>
